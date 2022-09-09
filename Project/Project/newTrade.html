@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PHEONIX</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <header>
+        <div id="LOGO">
+            <a href="index.html"> <img src="logo.png" width='200' height='200' alt="PHEONIX LOGO"> </a>
+            <h1>PHEONIX</h1>
+            <h4>Let's Fly!</h4>
+            <ul id = "index">
+                <li> <a href="newTrade.html">StartTrading!>&nbsp;</a> </li>
+                <li> <a href="index.html">LOGIN</a> </li>
+                <li> <a href="index.html">SIGNUP</a> </li>
+            </ul>
+            <hr id="break" />
+            <a href="Trades.html" id=Trades>Trades</a>
+        </div>
+    </header>
+    <div class="content">
+        <img id ="sdrone" src="drone1.png"width=270 height="300" alt="Drone Image"/>
+        <br>
+        <br>
+            <form id action="trades.html">
+                <div id="fields">
+                <table>
+                    <tr>
+                
+                        <td><label for="Name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:</label> </td>
+                        <td><input type="text" ><br> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="CompanyName">Organizatin Name:</label></td>
+                        <td><input type="text"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ManufacturingYear">YearOfManufacture:</label></td>
+                        <td><input type="text" maxlength="4" size="4"><br></td>
+                    </tr>
+                    <tr>
+                    <tr>
+                        <td><label for="cat">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Types:</label></td>
+                        <td><select id="cat" name="cat">
+                            <option value="Empty"></option>
+                            <option value="Surveillance">Surveillance</option>
+                            <option value="Delivery">Delivery</option>
+                            <option value="Mapping">Mapping</option>
+                            <option value="Inspection">Long Distance Inspection</option>
+                            <option value="Agriculture">Agriculture</option>
+                            <option value="Security">Security</option>
+                            <option value="Others">--Others--</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Description">Description:</label></td>
+                        <td>
+                        <textarea id="description" name="description" rows="4" cols="50">please write here.
+                        </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <input type="checkbox" id="TC" name="terms and conditions" value="TC">
+                        
+                        <label for="TC">Accept to the Terms & Conditions</label>
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </td>
+                            <td><input type="submit" value="SUBMIT"></td>
+                        </tr>
+                        </td>
+                    </td>
+                    </tr>
+                </table>
+                </div>
+            </form>        
+    </div>
+
+    <footer id="foot">
+        <div id="footer_info">
+            <p class="copyright">&copy;PHEONIX LLP</p>
+            <a href="index.html">ABOUT</a>
+            <a href="index.html">&nbsp;&nbsp;&nbsp;LOCATION</a>
+            <a href="index.html">&nbsp;&nbsp;&nbsp;CONTACT</a>
+        
+        </div>
+        <div id="footer_socialmedia">
+            <a href="index.html"> <img src="fb_logo.png" width='40' height='40' alt="Facebook"> </a>
+            <a href="index.html"> <img src="tw_logo.jpg" width='40' height='40' alt="Twitter"> </a>
+        </div>
+    </footer>
+
+</body>
+</html>

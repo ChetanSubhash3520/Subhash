@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+#LOGO{
+    background-color:black;
+}
+h1{
+	display: inline;
+	position: relative ; bottom: 70px; left:400px;
+	font-family: Verdana,Geneva,sans-serif;
+    	color:grey;
+}
+h4{
+    display: inline;
+	position: relative ; bottom: 70px; left:400px;
+	font-family: Verdana,Geneva,sans-serif;
+    	color:grey; 
+}
+
+#index{
+	float: right;
+	list-style-type: none;
+	margin-top: 180px;
+}
+
+#index li{
+    display:inline-block;
+}
+
+#index li a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+}
+#break{
+    border:0;
+    border-bottom: 5px solid white;
+    color:white;
+}
+#trades{
+    padding: 10px;
+    font-weight: bold;
+    color: white;}
+#start{
+    padding-top: 120px;
+    text-align: center;
+}  
+#foot{
+        height: 10vh;
+        bottom: 0;
+        position:absolute;
+        background-color: black;
+        color:white;
+        width:100%
+}
+
+#footer_info{
+    padding: 2px 10px;
+    float: left;
+    padding-top: 10px;
+}
+
+#footer_info a{
+    color:white;
+}
+
+#copyright{
+    font-size: 70%;
+    font-weight: lighter;
+    color:white;
+}
+
+#footer_socialmedia{
+    padding: 20px 10px;
+    float: right;
+    position: relative ; right: 50px;
+}
+a{
+	display: inline;
+	text-decoration: none;
+}
+.Droneinfo{
+display:inline;
+padding-left: 200;
+} 
+.para{
+    display:inline;
+    text-align: right;
+    } 
+#sdrone{
+    float: left;
+}
+.row{
+    text-align: center ;
+}
+
+
+#fields{
+    text-align: center;
+}
+
+.col {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
