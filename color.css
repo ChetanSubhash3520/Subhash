@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.color-theme_Game-trading-logos-1-hex { color: #A69CA2; }
+.color-theme_Game-trading-logos-2-hex { color: #646273; }
+.color-theme_Game-trading-logos-3-hex { color: #3F4159; }
+.color-theme_Game-trading-logos-4-hex { color: #131A40; }
+.color-theme_Game-trading-logos-5-hex { color: #D9CAC5; }
+
+/* Color Theme Swatches in RGBA */
+.color-theme_Game-trading-logos-1-rgba { color: rgba(166, 156, 162, 1); }
+.color-theme_Game-trading-logos-2-rgba { color: rgba(100, 98, 115, 1); }
+.color-theme_Game-trading-logos-3-rgba { color: rgba(63, 65, 89, 1); }
+.color-theme_Game-trading-logos-4-rgba { color: rgba(19, 26, 64, 1); }
+.color-theme_Game-trading-logos-5-rgba { color: rgba(217, 202, 197, 1); }
+
+/* Color Theme Swatches in HSLA */
+.color-theme_Game-trading-logos-1-hsla { color: hsla(324, 5, 63, 1); }
+.color-theme_Game-trading-logos-2-hsla { color: hsla(247, 7, 41, 1); }
+.color-theme_Game-trading-logos-3-hsla { color: hsla(235, 17, 29, 1); }
+.color-theme_Game-trading-logos-4-hsla { color: hsla(230, 54, 16, 1); }
+.color-theme_Game-trading-logos-5-hsla { color: hsla(14, 20, 81, 1); }
