@@ -1,0 +1,66 @@
+body{
+    color: #D9CAC5;
+    padding: 0%;
+    padding-top: 180px;
+  }
+
+nav{
+    height: 180px;
+    left: 0;
+    background-color: #131A40 ;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    top: 0;
+}
+.navBarImg{
+    height: 120px;  
+
+}
+.linksClass{
+  display: flex;
+  position: absolute;
+  top: 2%;
+  right: 0;
+  margin-right: 60px;
+  align-items: center;
+}
+.linksClass button{
+    
+    width: 90px;
+    padding: 2%;
+    cursor: pointer;
+  }
+a {
+    text-decoration: none;
+    color: var(--white-color);
+  }
+.divCenter{
+    color: #131A40;
+    padding: 25px;
+    align-items: center;
+}
+.divCenter label{
+    margin: 30px;
+}
+.divCenter input{
+    margin: 10px;
+}
+.linksClass li{
+    padding-right: 10%;
+    list-style: none;
+    color: #D9CAC5;
+}
+.trades{
+    margin-left: 20px;
+}
+.footerDiv{
+    position: fixed;
+    bottom: 0;
+    justify-content: flex-start;
+    font-size: 10px;
+    width: 100%;
+    left: 0%;
+    text-align: center;
+    background-color: #131A40;
+}
